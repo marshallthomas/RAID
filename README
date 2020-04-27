@@ -18,3 +18,4 @@ where
 	-4=number of backup files existing (computers involved in the raid)
 
 
+This is designed to be used in a distributed network backup where the backup.txt files are distributed across a network and each stored on a different computer, as an alternative to people having to pay for backup services.  
