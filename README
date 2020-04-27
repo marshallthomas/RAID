@@ -1,0 +1,20 @@
+to compile
+gcc raid.c -o raid
+gcc unraid.c -o unraid
+
+to run raid
+first, delete info.txt
+./raid scarletletter.txt 4 2
+where
+	-scarletletter.txt=file to be raided
+	-4=number of backup files to be created (computers involved in the raid)
+	-2=which backup is the parity for this file (in this case, files 0-3 are the options)
+
+to run unraid
+make sure info.txt is there
+
+./unraid 4
+where 
+	-4=number of backup files existing (computers involved in the raid)
+
+
